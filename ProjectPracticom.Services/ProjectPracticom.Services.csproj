@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectPracticom.Common\ProjectPracticom.Common.csproj" />
+    <ProjectReference Include="..\ProjectPracticom.MyContext\ProjectPracticom.MyContext.csproj" />
+    <ProjectReference Include="..\ProjectPracticom.Repositories\ProjectPracticom.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
